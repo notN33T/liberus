@@ -9,7 +9,11 @@ export default function Header() {
     <div className={styles.header_c}>
       <div className={styles.header_buttons_c}>
         <p className={styles.logo_text}>⚔Liberius</p>
-        <p className={classnames(styles.leaderboard_text, styles.hover_1)}>Leaderboard</p>
+        <p className={classnames(styles.header_text, styles.hover_1)}>Leaderboard</p>
+
+        {/* <p className={classnames(styles.header_text, styles.hover_1)}>Inventory</p> */}
+        {/* <p className={classnames(styles.header_text, styles.hover_1)}>Battles</p> */}
+
         <p className={classnames(styles.about_text, styles.hover_1)}>About us</p>
       </div>
       <div className={styles.profile_c}><p className={styles.hover_1}>My Profile</p><p className={styles.profile_left_stick}>|</p> <div className={styles.profile_avatar_c}><img src={avatarImg} alt="avatar" /></div>
